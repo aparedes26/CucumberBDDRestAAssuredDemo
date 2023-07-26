@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">2</div>
+<div class="counter">19</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1.429s</div>
+<div class="counter">14.183s</div>
 <p>duration</p>
 </div>
 </td>
@@ -64,7 +64,10 @@
 <a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Standard error</a>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
@@ -78,37 +81,616 @@
 </tr>
 </thead>
 <tr>
-<td class="success">Dummy Rest Api GET Students</td>
-<td class="success">1.335s</td>
+<td class="success">Validar codigo de estado 200 OK</td>
+<td class="success">2.792s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">Verify Code</td>
-<td class="success">0.094s</td>
+<td class="success">Validar codigo de estado 200 OK</td>
+<td class="success">0.626s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar codigo de estado 200 OK</td>
+<td class="success">0.612s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar codigo de estado 200 OK</td>
+<td class="success">0.675s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar codigo de estado 200 OK</td>
+<td class="success">0.619s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar codigo de estado 404 al enviar un id incorrecto</td>
+<td class="success">0.662s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar codigo de estado 404 cuando se envia id en el patch variable nulo</td>
+<td class="success">0.628s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar codigo de estado 404 cuando se envia id en el patch variable nulo #1</td>
+<td class="success">0.605s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar codigo de estado 404 cuando se envia id en el patch variable nulo #2</td>
+<td class="success">0.636s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar codigo de estado 404 cuando se envia id en el patch variable nulo #3</td>
+<td class="success">0.622s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar codigo de estado 404 cuando se envia id en el patch variable nulo #4</td>
+<td class="success">0.627s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar codigo de estado 404 cuando se envia id en el patch variable nulo #5</td>
+<td class="success">0.648s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar codigo de estado 405 cuando se envia id en el patch variable ya eliminado</td>
+<td class="success">0.684s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar codigo de respuesta con error 404 al enviar la peticion con el patch incorrecto</td>
+<td class="success">0.649s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar la existencia de un atributo específico en la respuesta JSON #1</td>
+<td class="success">0.611s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar la existencia de un atributo específico en la respuesta JSON #2</td>
+<td class="success">0.619s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar la existencia de un atributo específico en la respuesta JSON #3</td>
+<td class="success">0.635s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar la existencia de un atributo específico en la respuesta JSON #4</td>
+<td class="success">0.608s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Validar que en el response del api GetBooking se visualice el atributo firstname</td>
+<td class="success">0.625s</td>
 <td class="success">passed</td>
 </tr>
 </table>
 </div>
 <div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Request method:	DELETE
+Request URI:	https://restful-booker.herokuapp.com/booking/30
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 7
+Etag: W/&quot;7-rM9AyJuqT6iOan/xHh+AW+7K/T8&quot;
+Date: Wed, 26 Jul 2023 20:43:55 GMT
+Via: 1.1 vegur
+
+Created
+Request method:	DELETE
+Request URI:	https://restful-booker.herokuapp.com/booking/6
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 201 Created
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 7
+Etag: W/&quot;7-rM9AyJuqT6iOan/xHh+AW+7K/T8&quot;
+Date: Wed, 26 Jul 2023 20:43:56 GMT
+Via: 1.1 vegur
+
+Created
+Request method:	PATCH
+Request URI:	https://restful-booker.herokuapp.com/booking/1
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+src\test\resources\json\BookingPartialUpdateBooking.json
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 169
+Etag: W/&quot;a9-/oSwsva0lV3JE+rBQdavW4jYFko&quot;
+Date: Wed, 26 Jul 2023 20:43:58 GMT
+Via: 1.1 vegur
+
+{
+    &quot;firstname&quot;: &quot;Yape&quot;,
+    &quot;lastname&quot;: &quot;Brown&quot;,
+    &quot;totalprice&quot;: 112,
+    &quot;depositpaid&quot;: true,
+    &quot;bookingdates&quot;: {
+        &quot;checkin&quot;: &quot;2018-01-01&quot;,
+        &quot;checkout&quot;: &quot;2019-01-01&quot;
+    },
+    &quot;additionalneeds&quot;: &quot;Breakfast&quot;
+}
+Request method:	PATCH
+Request URI:	https://restful-booker.herokuapp.com/booking/
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+src\test\resources\json\BookingPartialUpdateBooking.json
+HTTP/1.1 404 Not Found
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 9
+Etag: W/&quot;9-0gXL1ngzMqISxa6S1zx3F4wtLyg&quot;
+Date: Wed, 26 Jul 2023 20:43:59 GMT
+Via: 1.1 vegur
+
+Not Found
+Request method:	PATCH
+Request URI:	https://restful-booker.herokuapp.com/booking/1
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+src\test\resources\json\BookingPartialUpdateBooking.json
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 169
+Etag: W/&quot;a9-/oSwsva0lV3JE+rBQdavW4jYFko&quot;
+Date: Wed, 26 Jul 2023 20:44:00 GMT
+Via: 1.1 vegur
+
+{
+    &quot;firstname&quot;: &quot;Yape&quot;,
+    &quot;lastname&quot;: &quot;Brown&quot;,
+    &quot;totalprice&quot;: 112,
+    &quot;depositpaid&quot;: true,
+    &quot;bookingdates&quot;: {
+        &quot;checkin&quot;: &quot;2018-01-01&quot;,
+        &quot;checkout&quot;: &quot;2019-01-01&quot;
+    },
+    &quot;additionalneeds&quot;: &quot;Breakfast&quot;
+}
+Request method:	PATCH
+Request URI:	https://restful-booker.herokuapp.com/booking/1
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+src\test\resources\json\BookingPartialUpdateBooking.json
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 169
+Etag: W/&quot;a9-/oSwsva0lV3JE+rBQdavW4jYFko&quot;
+Date: Wed, 26 Jul 2023 20:44:00 GMT
+Via: 1.1 vegur
+
+{
+    &quot;firstname&quot;: &quot;Yape&quot;,
+    &quot;lastname&quot;: &quot;Brown&quot;,
+    &quot;totalprice&quot;: 112,
+    &quot;depositpaid&quot;: true,
+    &quot;bookingdates&quot;: {
+        &quot;checkin&quot;: &quot;2018-01-01&quot;,
+        &quot;checkout&quot;: &quot;2019-01-01&quot;
+    },
+    &quot;additionalneeds&quot;: &quot;Breakfast&quot;
+}
+Request method:	PATCH
+Request URI:	https://restful-booker.herokuapp.com/booking/1
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+src\test\resources\json\BookingPartialUpdateBooking.json
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 169
+Etag: W/&quot;a9-/oSwsva0lV3JE+rBQdavW4jYFko&quot;
+Date: Wed, 26 Jul 2023 20:44:01 GMT
+Via: 1.1 vegur
+
+{
+    &quot;firstname&quot;: &quot;Yape&quot;,
+    &quot;lastname&quot;: &quot;Brown&quot;,
+    &quot;totalprice&quot;: 112,
+    &quot;depositpaid&quot;: true,
+    &quot;bookingdates&quot;: {
+        &quot;checkin&quot;: &quot;2018-01-01&quot;,
+        &quot;checkout&quot;: &quot;2019-01-01&quot;
+    },
+    &quot;additionalneeds&quot;: &quot;Breakfast&quot;
+}
+Request method:	PATCH
+Request URI:	https://restful-booker.herokuapp.com/booking/1
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+src\test\resources\json\BookingPartialUpdateBooking.json
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 169
+Etag: W/&quot;a9-/oSwsva0lV3JE+rBQdavW4jYFko&quot;
+Date: Wed, 26 Jul 2023 20:44:02 GMT
+Via: 1.1 vegur
+
+{
+    &quot;firstname&quot;: &quot;Yape&quot;,
+    &quot;lastname&quot;: &quot;Brown&quot;,
+    &quot;totalprice&quot;: 112,
+    &quot;depositpaid&quot;: true,
+    &quot;bookingdates&quot;: {
+        &quot;checkin&quot;: &quot;2018-01-01&quot;,
+        &quot;checkout&quot;: &quot;2019-01-01&quot;
+    },
+    &quot;additionalneeds&quot;: &quot;Breakfast&quot;
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/auth
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+src\test\resources\json\Auth.json
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 27
+Etag: W/&quot;1b-jeSQ9u0yOqrZqOf3NA0QsvNp/wc&quot;
+Date: Wed, 26 Jul 2023 20:44:02 GMT
+Via: 1.1 vegur
+
+{
+    &quot;token&quot;: &quot;5f9d8883e82e66d&quot;
+}
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/aut
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+src\test\resources\json\Auth.json
+HTTP/1.1 404 Not Found
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 9
+Etag: W/&quot;9-0gXL1ngzMqISxa6S1zx3F4wtLyg&quot;
+Date: Wed, 26 Jul 2023 20:44:03 GMT
+Via: 1.1 vegur
+
+Not Found
+Request method:	PUT
+Request URI:	https://restful-booker.herokuapp.com/booking/1
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+src\test\resources\json\BookingUpdateBooking.json
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 166
+Etag: W/&quot;a6-mQGIp/M6T7COTd13vnX8jP67vCc&quot;
+Date: Wed, 26 Jul 2023 20:44:03 GMT
+Via: 1.1 vegur
+
+{
+    &quot;firstname&quot;: &quot;James&quot;,
+    &quot;lastname&quot;: &quot;o&quot;,
+    &quot;totalprice&quot;: 112,
+    &quot;depositpaid&quot;: true,
+    &quot;bookingdates&quot;: {
+        &quot;checkin&quot;: &quot;2018-01-01&quot;,
+        &quot;checkout&quot;: &quot;2019-01-01&quot;
+    },
+    &quot;additionalneeds&quot;: &quot;Breakfast&quot;
+}
+Request method:	PUT
+Request URI:	https://restful-booker.herokuapp.com/booking/
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+src\test\resources\json\BookingUpdateBooking.json
+HTTP/1.1 404 Not Found
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/plain; charset=utf-8
+Content-Length: 9
+Etag: W/&quot;9-0gXL1ngzMqISxa6S1zx3F4wtLyg&quot;
+Date: Wed, 26 Jul 2023 20:44:04 GMT
+Via: 1.1 vegur
+
+Not Found
+Request method:	PUT
+Request URI:	https://restful-booker.herokuapp.com/booking/1
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+src\test\resources\json\BookingUpdateBooking.json
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 166
+Etag: W/&quot;a6-mQGIp/M6T7COTd13vnX8jP67vCc&quot;
+Date: Wed, 26 Jul 2023 20:44:05 GMT
+Via: 1.1 vegur
+
+{
+    &quot;firstname&quot;: &quot;James&quot;,
+    &quot;lastname&quot;: &quot;o&quot;,
+    &quot;totalprice&quot;: 112,
+    &quot;depositpaid&quot;: true,
+    &quot;bookingdates&quot;: {
+        &quot;checkin&quot;: &quot;2018-01-01&quot;,
+        &quot;checkout&quot;: &quot;2019-01-01&quot;
+    },
+    &quot;additionalneeds&quot;: &quot;Breakfast&quot;
+}
+Request method:	PUT
+Request URI:	https://restful-booker.herokuapp.com/booking/1
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+src\test\resources\json\BookingUpdateBooking.json
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 166
+Etag: W/&quot;a6-mQGIp/M6T7COTd13vnX8jP67vCc&quot;
+Date: Wed, 26 Jul 2023 20:44:05 GMT
+Via: 1.1 vegur
+
+{
+    &quot;firstname&quot;: &quot;James&quot;,
+    &quot;lastname&quot;: &quot;o&quot;,
+    &quot;totalprice&quot;: 112,
+    &quot;depositpaid&quot;: true,
+    &quot;bookingdates&quot;: {
+        &quot;checkin&quot;: &quot;2018-01-01&quot;,
+        &quot;checkout&quot;: &quot;2019-01-01&quot;
+    },
+    &quot;additionalneeds&quot;: &quot;Breakfast&quot;
+}
+Request method:	PUT
+Request URI:	https://restful-booker.herokuapp.com/booking/1
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+src\test\resources\json\BookingUpdateBooking.json
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 166
+Etag: W/&quot;a6-mQGIp/M6T7COTd13vnX8jP67vCc&quot;
+Date: Wed, 26 Jul 2023 20:44:06 GMT
+Via: 1.1 vegur
+
+{
+    &quot;firstname&quot;: &quot;James&quot;,
+    &quot;lastname&quot;: &quot;o&quot;,
+    &quot;totalprice&quot;: 112,
+    &quot;depositpaid&quot;: true,
+    &quot;bookingdates&quot;: {
+        &quot;checkin&quot;: &quot;2018-01-01&quot;,
+        &quot;checkout&quot;: &quot;2019-01-01&quot;
+    },
+    &quot;additionalneeds&quot;: &quot;Breakfast&quot;
+}
+Request method:	PUT
+Request URI:	https://restful-booker.herokuapp.com/booking/1
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic YWRtaW46cGFzc3dvcmQxMjM=
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+src\test\resources\json\BookingUpdateBooking.json
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 166
+Etag: W/&quot;a6-mQGIp/M6T7COTd13vnX8jP67vCc&quot;
+Date: Wed, 26 Jul 2023 20:44:07 GMT
+Via: 1.1 vegur
+
+{
+    &quot;firstname&quot;: &quot;James&quot;,
+    &quot;lastname&quot;: &quot;o&quot;,
+    &quot;totalprice&quot;: 112,
+    &quot;depositpaid&quot;: true,
+    &quot;bookingdates&quot;: {
+        &quot;checkin&quot;: &quot;2018-01-01&quot;,
+        &quot;checkout&quot;: &quot;2019-01-01&quot;
+    },
+    &quot;additionalneeds&quot;: &quot;Breakfast&quot;
+}
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>┌───────────────────────────────────────────────────────────────────────────────────┐
-│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
-│ Activate publishing with one of the following:                                    │
-│                                                                                   │
-│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
-│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
-│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
-│ JUnit:                                           @CucumberOptions(publish = true) │
-│                                                                                   │
-│ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
-│                                                                                   │
-│ Disable this message with one of the following:                                   │
-│                                                                                   │
-│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
-│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
-└───────────────────────────────────────────────────────────────────────────────────┘
-</pre>
+<pre>????????????????????????????????????????????????????????????????????????????
+? View your Cucumber Report at:                                            ?
+? https://reports.cucumber.io/reports/bf58184b-fd97-4a4a-9d10-bacfc8ecb4c3 ?
+?                                                                          ?
+? This report will self-destruct in 24h.                                   ?
+? Keep reports forever: https://reports.cucumber.io/profile                ?
+????????????????????????????????????????????????????????????????????????????</pre>
 </span>
 </div>
 </div>
@@ -119,7 +701,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.1</a> at 18-Apr-2022, 5:43:16 pm</p>
+<a href="http://www.gradle.org">Gradle 8.2.1</a> at 26 jul. 2023 15:44:09</p>
 </div>
 </div>
 </body>

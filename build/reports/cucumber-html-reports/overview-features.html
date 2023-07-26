@@ -50,7 +50,7 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                4,
+                63,
                 0,
                 0,
                 0,
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 4) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 63) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -106,7 +106,7 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                2,
+                19,
                 0
             ],
             backgroundColor: [
@@ -140,7 +140,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 2) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 19) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -153,7 +153,7 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                   1,
+                   5,
                    0
                ],
                backgroundColor: [
@@ -187,7 +187,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 1) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 5) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -230,7 +230,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>root project 'CucumberBDDRestAAssuredDemo'</td>
         <td>0</td>
-      <td>18 Apr 2022, 17:43</td>
+      <td>26 jul. 2023, 15:44</td>
     </tr>
   </tbody>
 </table>
@@ -325,20 +325,88 @@ $(document).ready(function() {
 
   <tbody>
       <tr>
-        <td class="tagname"><a href="report-feature_3988427916.html">Dummy Rest API Functionality Scenarios</a></td>
+        <td class="tagname"><a href="report-feature_993437625.html">Booking - UpdateBooking</a></td>
 
-        <td      class="passed"    >4</td>
+        <td      class="passed"    >6</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">4</td>
+        <td class="total">6</td>
 
         <td  class="passed"    >2</td>
         <td >0</td>
         <td class="total">2</td>
 
-        <td class="duration" data-value="1295803000">1.295</td>
+        <td class="duration" data-value="3323309500">3.323</td>
+        <td class="passed">Passed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_1_2848163632.html">API Booking - GetBooking</a></td>
+
+        <td      class="passed"    >7</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">7</td>
+
+        <td  class="passed"    >3</td>
+        <td >0</td>
+        <td class="total">3</td>
+
+        <td class="duration" data-value="1875977200">1.875</td>
+        <td class="passed">Passed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_2_3540270224.html">Booking - PartialUpdateBooking</a></td>
+
+        <td      class="passed"    >22</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">22</td>
+
+        <td  class="passed"    >6</td>
+        <td >0</td>
+        <td class="total">6</td>
+
+        <td class="duration" data-value="3728165400">3.728</td>
+        <td class="passed">Passed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_3_4278415460.html">Auth - CreateToken</a></td>
+
+        <td      class="passed"    >6</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">6</td>
+
+        <td  class="passed"    >2</td>
+        <td >0</td>
+        <td class="total">2</td>
+
+        <td class="duration" data-value="1247088000">1.247</td>
+        <td class="passed">Passed</td>
+      </tr>
+      <tr>
+        <td class="tagname"><a href="report-feature_4_2854834089.html">Booking - UpdateBooking</a></td>
+
+        <td      class="passed"    >22</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">22</td>
+
+        <td  class="passed"    >6</td>
+        <td >0</td>
+        <td class="total">6</td>
+
+        <td class="duration" data-value="3704869500">3.704</td>
         <td class="passed">Passed</td>
       </tr>
   </tbody>
@@ -346,19 +414,19 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>4</td>
+      <td>63</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>4</td>
+      <td>63</td>
 
-      <td>2</td>
+      <td>19</td>
       <td>0</td>
-      <td>2</td>
+      <td>19</td>
 
-      <td class="duration">1.295</td>
-      <td>1</td>
+      <td class="duration">13.879</td>
+      <td>5</td>
     </tr>
     <tr>
       <td></td>

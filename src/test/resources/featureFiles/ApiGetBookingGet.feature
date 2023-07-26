@@ -1,3 +1,4 @@
+@postexample
 Feature: API Booking - GetBooking
 
   Scenario Outline: Validar codigo de estado 200 OK
