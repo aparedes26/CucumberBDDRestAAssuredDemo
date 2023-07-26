@@ -7,7 +7,7 @@ Feature: Booking - UpdateBooking
 
     Examples:
       | url                                  | id | responseMessage |
-      | https://restful-booker.herokuapp.com | 16 | 201             |
+      | https://restful-booker.herokuapp.com | 17 | 201             |
 
 
   Scenario Outline: Validar codigo de estado 405 cuando se envia id en el patch variable ya eliminado
@@ -17,5 +17,5 @@ Feature: Booking - UpdateBooking
 
     Examples:
       | url                                  | id | responseMessage |
-      | https://restful-booker.herokuapp.com | 15 | 405             |
+      | https://restful-booker.herokuapp.com | 14 | 405             |
 
