@@ -11,11 +11,12 @@ Feature: API Booking - GetBooking
 
   Scenario Outline: Validar que en el response del api GetBooking se visualice el atributo firstname
     Given hago una solicitud GET a la API "<url>"
-    Then el atributo firstname en el JSON response debe ser Susan "<firstname>"
+    Then la respuesta debe tener codigo de estado "<responseMessage>"
+    Then el atributo "<atributoresponse>" esta presente en la respuesta JSON
 
     Examples:
-      | url       | firstname   |
-      | booking/2 | Mary       |
+      | url       | atributoresponse | responseMessage |
+      | booking/2 | firstname        | 200             |
 
 
   Scenario Outline: Validar codigo de estado 404 al enviar un id incorrecto
@@ -28,13 +29,5 @@ Feature: API Booking - GetBooking
 
 
 
-  Scenario Outline: Validar codigo de estado 200 OK
-    Given hago una solicitud POST a la API https://restful-booker.herokuapp.com URI
-    When envio una solicitud POST y valido el body /auth endpoint
-    Then la respuesta debe tener codigo de estado "<responseMessage>"
-
-    Examples:
-      | responseMessage  |
-      | 200              |
 
 

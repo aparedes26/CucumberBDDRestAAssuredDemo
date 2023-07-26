@@ -136,5 +136,11 @@ public class ApiStepDefinition {
     public void envioUnaSolicitudDELETEYValidoElBodyBookingEndpoint(String endpoint) {
         response = request.when().delete(endpoint).prettyPeek();
     }
+
+    @Then("el atributo {string} esta presente en la respuesta JSON")
+    public void elAtributoEstaPresenteEnLaRespuestaJSON(String attributeName) {
+        String responseBody = response.getBody().asString();
+        Assert.assertTrue(responseBody.contains("\"" + attributeName + "\":"));
+    }
 }
 
