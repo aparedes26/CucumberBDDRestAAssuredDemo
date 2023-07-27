@@ -55,7 +55,7 @@ a:hover {
     box-shadow: -3px 0 #6ce;
 }
 
-.description, .comment {
+.description {
     font-style: italic;
     background-color: beige;
     white-space: pre;
