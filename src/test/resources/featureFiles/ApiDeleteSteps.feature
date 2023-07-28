@@ -7,7 +7,7 @@ Feature: Booking - UpdateBooking
 
     Examples:
       | url                                  | id | responseMessage |
-      | https://restful-booker.herokuapp.com | 23 | 201             |
+      | https://restful-booker.herokuapp.com | 30 | 201             |
 
 
 
